@@ -1,0 +1,125 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+
+/* Heading Section  Css */
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: Impact, serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
+}
+
+
+/* Menu Section Css */
+
+.menu {
+    width: 80%;
+    max-width: 500px;
+    background-color: burlywood;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Image Section start*/
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.bottom-line {
+    margin: 25px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item p {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* Here  using item flavor Css Section */
+
+.flavor,
+.dessert {
+    text-align: left;
+    width: 55%;
+}
+
+.flavor {
+    display: inline;
+}
+
+
+/* Here using item Price list Section Css */
+
+.price {
+    text-align: right;
+    width: 45%;
+}
+
+
+/* FOOTER Section Start */
+
+footer {
+    font-size: 14px;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
