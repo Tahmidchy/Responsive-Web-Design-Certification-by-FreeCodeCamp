@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <!-- Custom Css file -->
+    <link rel="stylesheet" href="./CSS3/style.css" type="text/css">
+    <!-- Just Add Css file upper no css code here and this is freecodecamp survey from -->
+</head>
+
+<body>
+    <h1 id="title">Page Title</h1>
+    <p id="description">This is a short explanation about the form.</p>
+    <form id="survey-form" action="#" method="post">
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="number" id="number-label">Number:</label>
+        <input type="number" id="number" name="number" placeholder="Enter a number" min="1" max="10" required>
+
+        <label for="dropdown" id="dropdown-label">Select an option:</label>
+        <select id="dropdown" name="dropdown">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+        </select>
+
+        <fieldset>
+            <legend>Choose an option:</legend>
+            <input type="radio" id="option1" name="radio-options" value="option1">
+            <label for="option1">Option 1</label>
+
+            <input type="radio" id="option2" name="radio-options" value="option2">
+            <label for="option2">Option 2</label>
+        </fieldset>
+
+        <label>Choose one or more options:</label>
+        <input type="checkbox" id="checkbox1" name="checkbox-options" value="checkbox1">
+        <label for="checkbox1">Option 1</label>
+
+        <input type="checkbox" id="checkbox2" name="checkbox-options" value="checkbox2">
+        <label for="checkbox2">Option 2</label>
+
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
