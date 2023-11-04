@@ -1,0 +1,18 @@
+    body {
+        background-color: gainsboro;
+    }
+    
+    #img-div {
+        background-color: #ffffff;
+        max-width: 100%;
+        padding-top: 50px;
+        padding: 30px;
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    
+    #image {
+        max-width: 100%;
+        display: block;
+        height: auto;
+    }
